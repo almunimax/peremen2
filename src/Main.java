@@ -81,6 +81,27 @@ public class Main {
         System.out.println("если спортсмен будет терять каждый день по 250 грамм, то у него уйдет на это " +totalDay1+ "дней");
         System.out.println("если спортсмен будет терять каждый день по 500 грамм, то у него уйдет на это " +totalDay2+ "дней");
         System.out.println("в среднем на похудание уйдет " +averageDays+ "дней");
+        // задача 8
+        System.out.println("задача 8");
+        int cashMashaMonht = 67760;
+        int cashDenisMonht = 83690;
+        int cashKristinaMonht = 76230;
+        float salaryIncrease = 0.1f; //  в процентах
+        float salaryIncreaseMasha = (cashMashaMonht*salaryIncrease)+cashMashaMonht;
+        float salaryIncreaseDenis = (cashDenisMonht*salaryIncrease)+cashDenisMonht;
+        float salaryIncreaseKristina = (cashKristinaMonht*salaryIncrease)+cashKristinaMonht;
+        float salaryDifferenceMasha = salaryIncreaseMasha-cashMashaMonht;
+        float salaryDifferenceDenis = salaryIncreaseDenis-cashDenisMonht;
+        float salaryDifferenceKristina = salaryIncreaseKristina-cashKristinaMonht;
+        System.out.println("Маша теперь получает " +salaryIncreaseMasha+ " рублей. Годовой доход вырос на " +salaryDifferenceMasha+ " рублей");
+        System.out.println("Денис теперь получает " +salaryIncreaseDenis+ " рублей. Годовой доход вырос на " +salaryDifferenceDenis+ " рублей");
+        System.out.println("Кристина теперь получает " +salaryIncreaseKristina+ " рублей. Годовой доход вырос на " +salaryDifferenceKristina+ " рублей");
+
+
+
+
+
+
 
 
 

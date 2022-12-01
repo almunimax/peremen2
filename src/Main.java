@@ -68,6 +68,19 @@ public class Main {
         int grPerKg = 1000;
         float weightKg = totalWeightProductsGr/1000f;
         System.out.println("вес такого спорт-завтрака " + weightKg + " кг");
+        // задача 7
+        System.out.println("задача 7");
+        int athleteLoseWeightKg = 7;
+        int grPerKg1 = 1000;
+        int athleteWeightgr = athleteLoseWeightKg*grPerKg1;
+        int loseWeightDayGr1 = 250;
+        int loseWeightDayGr2 = 500;
+        int totalDay1 = athleteWeightgr/loseWeightDayGr1;
+        int totalDay2 = athleteWeightgr/loseWeightDayGr2;
+        int averageDays = (totalDay1+totalDay2)/2;
+        System.out.println("если спортсмен будет терять каждый день по 250 грамм, то у него уйдет на это " +totalDay1+ "дней");
+        System.out.println("если спортсмен будет терять каждый день по 500 грамм, то у него уйдет на это " +totalDay2+ "дней");
+        System.out.println("в среднем на похудание уйдет " +averageDays+ "дней");
 
 
 
